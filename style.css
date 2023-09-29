@@ -3,7 +3,9 @@
     padding: 0;
     margin: 0;
 }
-
+p{
+    font-size: 16px;
+}
 body {
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -11,6 +13,7 @@ body {
 .firstview{
     background-color: #EBECEF;
     width: 100vw;
+    height: 130vh;
     position: relative;
 }
 .topimages{
@@ -28,14 +31,64 @@ body {
     width: 416px;
 }
 .firstview-container{
-    display: flex;
-    justify-content: center;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+}
+.firstview-container h1{
+    font-size: 64px;
+    left: -80px;
+}
+.firstview-container h2{
+    font-size: 36px;
+    right: -80px;
+}
+.firstview-container h1, .firstview-container h2{
+    letter-spacing: 10px;
+    width: fit-content;
+    position: absolute;
+    bottom: 0px;
 }
 .firstview-container img{
     max-width: 726px;
     width: 100%;
-    position: absolute;
+}
+#about{
+        width: 100vw;
+        height: fit-content;
+        background-color: #0066B8;
+        color: #fff;
+}
+#about h2{
+    font-size: 60px;
+    letter-spacing: 3%;
+}
+.abouttext-content p{
+    margin-top: 26px;
+    letter-spacing: 2px;
+    line-height: 2.0;
+    text-align: start;
+}
+#about img{
+    max-width: 535px;
+    width: 100%;
+}
+.about-content{
+    padding-top: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+}
+
+.about-text p{
+    text-align: center;
+    margin-top: 84px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 60px;
+
 }
