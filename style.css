@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.firstview{
+    background-color: #EBECEF;
+    width: 100vw;
+    position: relative;
+}
+.topimages{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.firstview .blue-big-circles{
+    aspect-ratio: 1;
+    width: 366px;
+}
+.firstview .blue-small-circles {
+    aspect-ratio: 2 / 1;
+    width: 416px;
+}
+.firstview-container{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.firstview-container img{
+    max-width: 726px;
+    width: 100%;
+    position: absolute;
+}
