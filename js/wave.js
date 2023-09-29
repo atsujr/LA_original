@@ -16,8 +16,9 @@ function init() {
     // canvas1個めの色指定
     canvasList.push(document.getElementById("waveCanvas"));
     colorList.push(['#0066B8']);
-    console.log(document.querySelector("#waveCanvas"))
 
+        canvasList.push(document.getElementById("waveCanvas2"));
+    colorList.push(['#0066B8']);
 // 各キャンバスの初期化
 　　for(var canvasIndex in canvasList) {
         var canvas = canvasList[canvasIndex];
