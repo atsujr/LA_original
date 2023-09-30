@@ -19,7 +19,7 @@ a {
 }
 
 h2 {
-    font-size: 60px;
+    font-size: 16px;
     letter-spacing: 3px;
 
 }
@@ -64,7 +64,50 @@ ul {
     position: relative;
 }
 
-
+#firstview h1{
+    display: block;
+    font-size: 64px;
+    letter-spacing: 10px;
+    background-color: #fff;
+    text-align: center;
+    width: 430px;
+    height: 112px;
+    line-height: 112px;
+    border-radius: 40px;
+    position: absolute;
+    top:100%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.firstview-textbox{
+    /* position: absolute;
+    top:100%;
+    transform: translateY(-50%); */
+}
+#building-list-main-text{
+    margin-top: 56px;
+    position: relative;
+    height: 30vh;
+}
+#building-list-main-text p{
+    line-height: 28px;
+    position: absolute;
+    /* 絶対位置指定を使用 */
+    top: 0;
+    /* 上端を画面の中央に配置 */
+    left: 50%;
+    /* 左端を画面の中央に配置 */
+    transform: translateX(-50%);
+    /* 中央揃えにするためにオフセットを調整 */
+}
+.building-list-images img{
+    max-width: 858px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
 
 
 

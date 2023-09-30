@@ -17,10 +17,10 @@ a {
 h2{
     font-size: 60px;
     letter-spacing: 3px;
-    
 }
 
 header{
+    color: #333;
     position: fixed;
     background-color: #fff;
     z-index: 1000;
@@ -48,6 +48,7 @@ ul{
     }
 }
 .firstview{
+    color: #333;
     background-color: #EBECEF;
     width: 100vw;
     height: 130vh;
@@ -111,6 +112,7 @@ ul{
     }
 }
 #about{
+    color: #333;
         width: 100vw;
         height: fit-content;
         background-color: #0066B8;
