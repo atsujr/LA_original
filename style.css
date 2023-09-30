@@ -72,7 +72,7 @@ ul{
     position: absolute;
     max-width: 726px;
     width: 100%;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     /* width: fit-content; */
@@ -93,7 +93,9 @@ ul{
 }
 .firstview-container img{
     /* max-width: 726px; */
-    width: 100%;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
 }
 @media (max-width: 1024px) {
     .firstview {
