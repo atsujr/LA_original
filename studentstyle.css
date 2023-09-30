@@ -54,6 +54,7 @@ ul {
         margin: 30px auto;
     }
 }
+
 .firstview {
     color: #333;
     background-color: #EBECEF;
@@ -90,13 +91,14 @@ ul {
 
 .firstview-container h1 {
     font-size: 64px;
-    left: 0px;
+    left: -80px;
 }
 
 .firstview-text {
     position: absolute;
     bottom: -170px;
     width: 100%;
+
 }
 
 .firstview-container h1,
@@ -133,6 +135,32 @@ ul {
     display: block;
     width: 80%;
     margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .firstview-container h1 {
+        font-size: 40px;
+    }
+
+    .firstview-container p {
+        text-align: left;
+    }
+
+    .firstview-text {
+        left: 10%;
+        width: 80%;
+        top: 65%; 
+    }
+
+    .firstview-container {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .firstview-container {
+        top: 22%;
+    }
 }
 
 .wave {
@@ -182,6 +210,23 @@ ul {
 .student-life-content-text p{
     letter-spacing: 1px;
     line-height: 32px;
+}
+@media (max-width: 768px) {
+    .student-life-content{
+        flex-direction: column;
+    }
+    .student-life-contents{
+        padding: 0 30px;
+    }
+    .student-life-content img{
+        width: 50%;
+    }
+    .student-life-content-text{
+        margin-top: 40px;
+    }
+    .student-life-content-text img{
+        width: 100%;
+    }
 }
 footer {
     height: 60px;
