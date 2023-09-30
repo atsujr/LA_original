@@ -143,69 +143,43 @@ ul {
     background-color: transparent !important;
 }
 
-#function {
+#student-life {
     background-color: #0066B8;
     color: #fff;
 }
 
-.function-contents {
-    max-width: 1000px;
+.student-life-contents {
+    max-width: 1080px;
     margin: 0 auto;
-    padding: 70px 0;
 }
 
-.function-contents img {
-    max-width: 560px;
+.student-life-contents img {
+    max-width: 322px;
     width: 100%;
 }
 
-.function-content {
+.student-life-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0;
+    padding: 100px 0;
 }
-
-.function-content-textbox {
-    max-width: 396px;
+.student-life-content-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.student-life-content-text img{
+    max-width: 635px;
     width: 100%;
 }
-
-.function-content-textbox h3 {
-    font-size: 40px;
+.student-life-content-text h3{
+    font-size: 32px;
 }
-
-.function-content-textbox p {
-    font-size: 16px;
-    line-height: 40px;
-    margin-top: 10px;
-    margin-bottom: 37px;
+.student-life-content-text p{
+    letter-spacing: 1px;
+    line-height: 32px;
 }
-
-.function-content-textbox a {
-    display: block;
-    background-color: #fff;
-    color: #333;
-    width: 289px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    border-radius: 80px;
-    position: relative;
-}
-
-.function-content-a {
-    position: relative;
-}
-
-.function-content-a img {
-    position: absolute;
-    width: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 40%;
-}
-
 footer {
     height: 60px;
     color: #fff;
