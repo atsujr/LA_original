@@ -151,7 +151,11 @@ ul {
     .firstview-container{
         padding: 0 30px;
     }
-
+}
+@media (max-width: 450px){
+    .firstview-container{
+        top: 22%;
+    }
 }
 .wave {
     position: absolute;
