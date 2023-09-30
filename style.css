@@ -69,10 +69,12 @@ ul{
 }
 .firstview-container{
     position: absolute;
-    top: 40%;
+    max-width: 726px;
+    width: 100%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: fit-content;
+    /* width: fit-content; */
 }
 .firstview-container h1{
     font-size: 64px;
@@ -89,8 +91,24 @@ ul{
     bottom: 0px;
 }
 .firstview-container img{
-    max-width: 726px;
+    /* max-width: 726px; */
     width: 100%;
+}
+@media (max-width: 1024px) {
+    .firstview {
+        height: 100vh;
+    }
+    .firstview-container h2 {
+        font-size: 16px;
+        right: 40px;
+    }
+    .firstview-container h1{
+        font-size: 24px;
+        left: 40px;
+    }
+    .firstview-container img{
+        padding: 0 30px;
+    }
 }
 #about{
         width: 100vw;
@@ -130,13 +148,14 @@ ul{
 }
 @media (max-width: 960px) {
     .about-content{
+        padding: 0 30px;
         flex-direction: column-reverse;
         gap: 50px;
         align-items: flex-start;
     }
     #about img{
         max-width: 100%;
-        width: 90%;
+        width: 100%;
     }
 }
 #waveCanvas2{
@@ -197,18 +216,23 @@ ul{
     line-height: 64px;
 }
 @media (max-width: 960px) {
+    .head-contents{
+        padding: 0 30px;
+    }
     .head-content {
         flex-direction: column-reverse;
         gap: 50px;
+        align-items: flex-start;
+
     }
     .reverse-head-content{
         flex-direction: column;
         gap: 50px;
+        align-items: flex-start;
     }
     #head img { 
-        max-width: 100%;
-        width: 90%;
-        margin: auto 0;
+        width: 100%;
+        /* margin: auto 0; */
     }
 
 }
