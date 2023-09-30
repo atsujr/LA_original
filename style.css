@@ -117,6 +117,8 @@ ul{
 @media (max-width: 760px) {
         .firstview-container h2 {
             display: none;
+
+
         }
         
         .firstview-container h1 {
@@ -202,7 +204,7 @@ ul{
         font-size: 12px;
     }
 }
-#waveCanvas2{
+#waveCanvas{
     transform: translateY(-1px);
 }
 #waveCanvas2{
