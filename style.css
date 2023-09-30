@@ -111,8 +111,15 @@ ul{
         padding: 0 30px;
     }
 }
+@media (max-width: 375px) {
+    .firstview-container h2 {
+    display: none;
+    }
+    .firstview {
+        height: 80vh;
+    }
+}
 #about{
-    color: #333;
         width: 100vw;
         height: fit-content;
         background-color: #0066B8;
@@ -160,6 +167,18 @@ ul{
         width: 100%;
     }
 }
+@media (max-width: 768px) {
+.about-text p {
+    font-size: 16px;
+}
+}
+@media (max-width: 428px) {
+    #about h2 {
+        font-size: 32px;
+        letter-spacing: 3%;
+    }
+}
+
 #waveCanvas2{
     transform: rotate(180deg);
     /* transform-origin: center bottom; */
@@ -180,6 +199,10 @@ ul{
     justify-content: space-between;
     align-items: center;
     margin: 250px auto 0;
+}
+.head-text-content{
+    max-width: 356px;
+    width: 100%;
 }
 .head-content p{
     margin-top: 32px;
@@ -236,7 +259,17 @@ ul{
         width: 100%;
         /* margin: auto 0; */
     }
-
+    .head-content a {
+        width: 100%;
+    }
+    .reverse-head-content a {
+        width: 100%;
+    }
+}
+@media (max-width: 428px) {
+    .head-contents h2{
+        font-size: 32px;
+    }
 }
 footer {
     height: 60px;

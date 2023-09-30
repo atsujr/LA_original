@@ -7,6 +7,7 @@ $(function ($) {
         dots: false,
         infinite: true,
         centerMode: true,
-        centerPadding: "20%"
+        centerPadding: "20%",
+        arrows:false
     });
 });

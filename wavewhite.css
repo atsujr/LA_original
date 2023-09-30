@@ -1,0 +1,22 @@
+.wave {
+    position: relative;
+}
+
+.wave:nth-child(1) {
+    background: #ffffff;
+}
+
+.wave:nth-child(2) {
+    background: #43c0e4;
+}
+
+.wave:nth-child(3) {
+    background: #43c0e4;
+}
+
+.wave canvas {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
