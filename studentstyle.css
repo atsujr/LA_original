@@ -142,6 +142,9 @@ ul {
     width: 100%;
     background-color: transparent !important;
 }
+#waveCanvas {
+    transform: translateY(2px);
+}
 
 #student-life {
     background-color: #0066B8;

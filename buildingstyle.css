@@ -186,6 +186,9 @@ ul {
     line-height: 28px;
     margin-top: 25px;
 }
+#waveCanvas {
+    transform: translateY(2px);
+}
 #waveCanvas2 {
     transform: rotate(180deg) translateY(1px);
     /* transform-origin: center bottom; */
