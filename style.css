@@ -45,6 +45,7 @@ ul{
 @media (max-width: 960px) {
     header {
         width: 90%;
+        margin: 30px auto;
     }
 }
 .firstview{
