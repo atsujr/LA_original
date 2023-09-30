@@ -140,10 +140,10 @@ ul{
     }
 }
 #about{
-        width: 100vw;
-        height: fit-content;
-        background-color: #0066B8;
-        color: #fff;
+    width: 100vw;
+    height: fit-content;
+    background-color: #0066B8;
+    color: #fff;
 }
 #about h2{
     font-size: 60px;
@@ -176,6 +176,18 @@ ul{
     line-height: 60px;
 }
 @media (max-width: 960px) {
+        .about-content h2 {
+            order: -3;
+        }
+        
+        .about-content img {
+            width: 100%;
+            order: 2;
+        }
+        
+        .about-content p {
+            order: 10;
+        }
     .about-content{
         padding: 0 30px;
         width: fit-content;
@@ -184,9 +196,7 @@ ul{
         gap: 50px;
         align-items: flex-start;
     }
-    #about img{
-        width: 100%;
-    }
+
 }
 
 @media (max-width: 768px) {
@@ -197,6 +207,7 @@ ul{
 @media (max-width: 520px) {
     #about h2 {
         letter-spacing: 3%;
+        font-size: 32px;
     }
     .about-text p {
         font-size: 12px;
