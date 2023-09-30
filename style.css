@@ -114,10 +114,9 @@ ul{
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
         .firstview-container h2 {
-            font-size: 24px;
-            right: 150px;
+            display: none;
         }
         
         .firstview-container h1 {
@@ -203,7 +202,9 @@ ul{
         font-size: 12px;
     }
 }
-
+#waveCanvas2{
+    transform: translateY(-1px);
+}
 #waveCanvas2{
     transform: rotate(180deg) translateY(1px);
     /* transform-origin: center bottom; */
