@@ -205,7 +205,7 @@ ul{
     }
 }
 #waveCanvas{
-    transform: translateY(-1px);
+    transform: translateY(1px);
 }
 #waveCanvas2{
     transform: rotate(180deg) translateY(1px);
