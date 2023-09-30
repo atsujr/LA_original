@@ -132,7 +132,7 @@ ul{
     display: none;
     }
     .firstview-container h1 {
-    
+        top: 65%;
         left: 10%;
     }
     .firstview {
