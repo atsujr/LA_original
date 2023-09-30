@@ -50,10 +50,10 @@ ul {
 
 @media (max-width: 960px) {
     header {
-        display: none;
+        width: 90%;
+        margin: 30px auto;
     }
 }
-
 .firstview {
     color: #333;
     background-color: #EBECEF;

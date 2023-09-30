@@ -50,7 +50,8 @@ ul {
 
 @media (max-width: 960px) {
     header {
-        display: none;
+        width: 90%;
+        margin: 30px auto;
     }
 }
 
