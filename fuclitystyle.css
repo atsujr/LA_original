@@ -96,7 +96,7 @@ ul {
 .firstview-text {
     position: absolute;
     bottom: -170px;
-    width: 80%;
+    width: 100%;
 
 }
 
@@ -145,6 +145,7 @@ ul {
     }
     .firstview-text{
         left: 10%;
+        width: 80%;
     }
     .firstview-container{
         padding: 0 30px;

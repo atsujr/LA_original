@@ -113,25 +113,25 @@ ul{
     }
 }
 
-@media (max-width: 678px) {
+@media (max-width: 768px) {
         .firstview-container h2 {
-            font-size: 16px;
+            font-size: 24px;
             right: 150px;
         }
         
         .firstview-container h1 {
-            font-size: 24px;
-            left: 150px;
+            font-size: 40px;
+            left: 10%;
         }
     
 }
-@media (max-width: 570px) {
+@media (max-width: 450px) {
     .firstview-container h2 {
     display: none;
     }
     .firstview-container h1 {
     
-        left: 20%;
+        left: 10%;
     }
     .firstview {
         height: 80vh;
@@ -204,7 +204,7 @@ ul{
 }
 
 #waveCanvas2{
-    transform: rotate(180deg);
+    transform: rotate(180deg) translateY(1px);
     /* transform-origin: center bottom; */
     position: relative;
 }
