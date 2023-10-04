@@ -238,7 +238,7 @@ ul{
     margin: 250px auto 0;
 }
 .head-text-content{
-    /* max-width: 356px; */
+    max-width: 356px;
     width: 100%;
 }
 .head-content p{
@@ -282,6 +282,10 @@ ul{
         padding: 0 30px;
         width: fit-content;
         margin: 0 auto;
+    }
+    .head-text-content {
+        max-width: 100%;
+        width: 100%;
     }
     .head-content {
         flex-direction: column-reverse;

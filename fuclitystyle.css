@@ -266,6 +266,7 @@ ul {
 footer {
     height: 60px;
     color: #fff;
+    transform: translateY(-1px);
     line-height: 60px;
     background-color: #0066B8;
     text-align: center;
