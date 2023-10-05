@@ -129,7 +129,17 @@ ul {
 .building-list-images{
     margin-bottom: 350px;
 }
-
+@media (max-width: 1000px) {
+    .building-list-images {
+        margin-bottom: 150px;
+    }
+    .building-list-images img {
+        max-width: 858px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+}
 
 #faculity-building{
     width: 100vw;

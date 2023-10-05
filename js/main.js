@@ -8,6 +8,14 @@ $(function ($) {
         infinite: true,
         centerMode: true,
         centerPadding: "20%",
-        arrows:false
+        arrows: false,
+        responsive: [
+        {
+        breakpoint: 1000,
+        settings: {
+            centerPadding: "10%",
+        }
+        },
+        ]
     });
 });
