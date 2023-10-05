@@ -259,12 +259,17 @@ ul{
 .head-content a{
     margin-top: 40px;
     display: inline-block;
-    border: 4px solid black;
+    border: 4px solid #333;
     font-weight: bold;
     text-align: center;
     width: 352px;
     line-height: 64px;
 }
+.head-content a:hover {
+    background: #333;
+    color: #EBECEF;
+}
+
 .reverse-head-content {
     max-width: 1080px;
     width: 100%;
@@ -287,6 +292,10 @@ ul{
     text-align: center;
     width: 352px;
     line-height: 64px;
+}
+.reverse-head-content a:hover {
+    background: #333;
+    color: #EBECEF;
 }
 @media (max-width: 960px) {
     .head-contents{
