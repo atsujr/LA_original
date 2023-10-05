@@ -236,10 +236,15 @@ ul {
 .fuculity-building-content{
     flex-direction: column;
     align-items: flex-start;
+    gap: 15px;
 }
 .reverse-fuculity-building-content{
     flex-direction: column-reverse;
     align-items: flex-start;
+    gap: 15px;
+}
+.fuculity-building-textcontent p{
+    margin-top: 15px;
 }
 .reverse-content{
     flex-direction: column-reverse;
