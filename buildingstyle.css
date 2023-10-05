@@ -150,6 +150,8 @@ ul {
 .faculity-building-text p{
     margin-top: 25px;
     line-height: 28px;
+    max-width: 414px;
+    width: 100%;
 }
 .fuculity-building-content{
     padding: 33px 0;
@@ -216,6 +218,8 @@ ul {
 .faculity-rest-building-text p {
     margin-top: 25px;
     line-height: 28px;
+    max-width: 414px;
+    width: 100%;
 }
 
 @media (max-width: 1024px) {
