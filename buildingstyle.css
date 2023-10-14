@@ -119,6 +119,8 @@ ul {
 }
 #building-list-main-text p{
     line-height: 28px;
+    max-width: 460px;
+    width: 100%;
 }
 .building-list-images img{
     max-width: 858px;
