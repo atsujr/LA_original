@@ -1,129 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="wave.css" />
+    <link rel="stylesheet" href="studentstyle.css" />
+    <title>学生の１日紹介</title>
+    <link rel="icon" href="favicon.ico" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="wave.css">
-    <link rel="stylesheet" href="studentstyle.css">
-    <title>Document</title>
-</head>
-
-<body>
+  <body>
     <header>
-        <ul>
-            <li><a href="index.html">TOP</a></li>
-            <li><a href="buildingindex.html">校舎案内</a></li>
-            <li><a href="fuclityindex.html">学部紹介</a></li>
-            <li><a href="studentindex.html">学生の１日</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">TOP</a></li>
+        <li><a href="buildingindex.html">校舎案内</a></li>
+        <li><a href="fuclityindex.html">学部紹介</a></li>
+        <li><a href="studentindex.html">学生の１日</a></li>
+      </ul>
     </header>
     <section class="firstview">
-        <div class="topimages">
-            <img src="images/blue_big_circle.png" alt="" class="blue-big-circles">
-            <img src="images/blue_small_circle.png" alt="" class="blue-small-circles">
+      <div class="topimages">
+        <img src="images/blue_big_circle.png" alt="" class="blue-big-circles" />
+        <img
+          src="images/blue_small_circle.png"
+          alt=""
+          class="blue-small-circles"
+        />
+      </div>
+      <div class="firstview-container">
+        <img src="images/3_firstview.png" alt="" />
+        <div class="firstview-text">
+          <h1>学生の１日</h1>
+          <p>
+            高校生にとっては全くの謎に包まれた大学生の１日。<br />
+            神大生は普段どんな1日を過ごしているのか<br />
+            今回は神戸大学工学部生の、実際の一日を紹介します。
+          </p>
         </div>
-        <div class="firstview-container">
-            <img src="images/3_firstview.png" alt="">
-            <div class="firstview-text">
-                <h1>学生の１日</h1>
-                <p>高校生にとっては全くの謎に包まれた大学生の１日。<br>
-                神大生は普段どんな1日を過ごしているのか<br>
-                今回は神戸大学工学部生の、実際の一日を紹介します。
-                </p>
-            </div>
-        </div>
-        <div class="wave">
-            <canvas id="waveCanvas"></canvas>
-        </div>
+      </div>
+      <div class="wave">
+        <canvas id="waveCanvas"></canvas>
+      </div>
     </section>
     <section id="student-life">
-        <div class="student-life-contents">
-            <div class="student-life-content">
-                <img src="images/3_clocck0730.png" alt="">
-                <div class="student-life-content-text">
-                    <h3>7:30 起床</h3>
-                    <p>一人暮らしのため7時半には毎朝起床する</p>
-                    <img src="images/3_img_0730.png" alt="">
-                </div>
-            </div>
-            <div class="student-life-content">
-                <img src="images/3_clocck0810.png" alt="">
-                <div class="student-life-content-text">
-                    <h3>8:10 登校</h3>
-                    <p>山の上にある六甲台キャンパスまで<br>
-                    徒歩20分ほどで登る。<br>
-                    夏と冬は暑さと寒さでなかなかしんどい。</p>
-                    <img src="images/3_img_0810.png" alt="">
-                </div>
-            </div>
-            <div class="student-life-content">
-                <img src="images/3_clock0850.png" alt="">
-                <div class="student-life-content-text">
-                    <h3>8:50 1限開始</h3>
-                    <p>１日の始まりである一限が始まる。<br>
-                    朝から全く未知の内容を学ぶために<br>
-                    パソコンを開いて授業をきく。</p>
-                    <img src="images/3_img_0850.png" alt="">
-                </div>
-            </div>
-            <div class="student-life-content">
-                <img src="images/3_clock1040.png" alt="">
-                <div class="student-life-content-text">
-                    <h3>10:40 2限開始</h3>
-                    <p>1限の後は座学。<br>
-                    大学の授業の内容はきちんと聞いていないと<br>
-                    理解できないことが多い。</p>
-                    <img src="images/3_img_1040.png" alt="">
-                </div>
-            </div>
-            <div class="student-life-content">
-                <img src="images/3_clock1210.png" alt="">
-                <div class="student-life-content-text">
-                    <h3>12:10 お昼ご飯</h3>
-                    <p>2限がおわるとようやくお昼ご飯。<br>
-                    一番近い学食はいつもとても混んでいる。</p>
-                    <img src="images/3_img_1210.png" alt="">
-                </div>
-            </div>
-            <div class="student-life-content">
-                <img src="images/3_clock1320.png" alt="">
-                <div class="student-life-content-text">
-                    <h3>13:20 3限は空きコマ</h3>
-                    <p>3限は授業が入っていないため<br>
-                    友達と図書館で課題を行う。<br>
-                    お昼ご飯を食べてすぐなので<br>
-                    眠気がすごい。
-                    </p>
-                    <img src="images/3_img_1320.png" alt="">
-                </div>
-            </div>
-            <div class="student-life-content">
-                <img src="images/3_clock1510.png" alt="">
-                <div class="student-life-content-text">
-                    <h3>15:10 4限</h3>
-                    <p>いよいよ本日最後の４限。<br>
-                    ４限にある科目は課題が難しい傾向がある。</p>
-                    <img src="images/3_img_1510.png" alt="">
-                </div>
-            </div>
-            <div class="student-life-content">
-                <img src="images/3_clock1640.png" alt="">
-                <div class="student-life-content-text">
-                    <h3>16:40 4限終了</h3>
-                    <p>１日の全ての授業が終わり。友達と歩きながら帰る。<br>
-                    みんな同じ時間に終わるため帰り道は激混み必至。
-                    </p>
-                    <img src="images/3_img_1640.png" alt="">
-                </div>
-            </div>
+      <div class="student-life-contents">
+        <div class="student-life-content">
+          <img src="images/3_clocck0730.png" alt="" />
+          <div class="student-life-content-text">
+            <h3>7:30 起床</h3>
+            <p>一人暮らしのため7時半には毎朝起床する</p>
+            <img src="images/3_img_0730.png" alt="" />
+          </div>
         </div>
+        <div class="student-life-content">
+          <img src="images/3_clocck0810.png" alt="" />
+          <div class="student-life-content-text">
+            <h3>8:10 登校</h3>
+            <p>
+              山の上にある六甲台キャンパスまで<br />
+              徒歩20分ほどで登る。<br />
+              夏と冬は暑さと寒さでなかなかしんどい。
+            </p>
+            <img src="images/3_img_0810.png" alt="" />
+          </div>
+        </div>
+        <div class="student-life-content">
+          <img src="images/3_clock0850.png" alt="" />
+          <div class="student-life-content-text">
+            <h3>8:50 1限開始</h3>
+            <p>
+              １日の始まりである一限が始まる。<br />
+              朝から全く未知の内容を学ぶために<br />
+              パソコンを開いて授業をきく。
+            </p>
+            <img src="images/3_img_0850.png" alt="" />
+          </div>
+        </div>
+        <div class="student-life-content">
+          <img src="images/3_clock1040.png" alt="" />
+          <div class="student-life-content-text">
+            <h3>10:40 2限開始</h3>
+            <p>
+              1限の後は座学。<br />
+              大学の授業の内容はきちんと聞いていないと<br />
+              理解できないことが多い。
+            </p>
+            <img src="images/3_img_1040.png" alt="" />
+          </div>
+        </div>
+        <div class="student-life-content">
+          <img src="images/3_clock1210.png" alt="" />
+          <div class="student-life-content-text">
+            <h3>12:10 お昼ご飯</h3>
+            <p>
+              2限がおわるとようやくお昼ご飯。<br />
+              一番近い学食はいつもとても混んでいる。
+            </p>
+            <img src="images/3_img_1210.png" alt="" />
+          </div>
+        </div>
+        <div class="student-life-content">
+          <img src="images/3_clock1320.png" alt="" />
+          <div class="student-life-content-text">
+            <h3>13:20 3限は空きコマ</h3>
+            <p>
+              3限は授業が入っていないため<br />
+              友達と図書館で課題を行う。<br />
+              お昼ご飯を食べてすぐなので<br />
+              眠気がすごい。
+            </p>
+            <img src="images/3_img_1320.png" alt="" />
+          </div>
+        </div>
+        <div class="student-life-content">
+          <img src="images/3_clock1510.png" alt="" />
+          <div class="student-life-content-text">
+            <h3>15:10 4限</h3>
+            <p>
+              いよいよ本日最後の４限。<br />
+              ４限にある科目は課題が難しい傾向がある。
+            </p>
+            <img src="images/3_img_1510.png" alt="" />
+          </div>
+        </div>
+        <div class="student-life-content">
+          <img src="images/3_clock1640.png" alt="" />
+          <div class="student-life-content-text">
+            <h3>16:40 4限終了</h3>
+            <p>
+              １日の全ての授業が終わり。友達と歩きながら帰る。<br />
+              みんな同じ時間に終わるため帰り道は激混み必至。
+            </p>
+            <img src="images/3_img_1640.png" alt="" />
+          </div>
+        </div>
+      </div>
     </section>
     <footer>
-        <p>&copy; Muroyama Atsuhiro</p>
+      <p>&copy; Muroyama Atsuhiro</p>
     </footer>
     <script src="js/singlewave.js"></script>
-</body>
-
+  </body>
 </html>

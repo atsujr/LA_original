@@ -1,125 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="wave.css">
-    <link rel="stylesheet" href="fuclitystyle.css">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="wave.css" />
+    <link rel="stylesheet" href="fuclitystyle.css" />
+    <title>学部紹介</title>
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
     <header>
-        <ul>
-            <li><a href="index.html">TOP</a></li>
-            <li><a href="buildingindex.html">校舎案内</a></li>
-            <li><a href="fuclityindex.html">学部紹介</a></li>
-            <li><a href="studentindex.html">学生の１日</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">TOP</a></li>
+        <li><a href="buildingindex.html">校舎案内</a></li>
+        <li><a href="fuclityindex.html">学部紹介</a></li>
+        <li><a href="studentindex.html">学生の１日</a></li>
+      </ul>
     </header>
     <section class="firstview">
-        <div class="topimages">
-            <img src="images/blue_big_circle.png" alt="" class="blue-big-circles">
-            <img src="images/blue_small_circle.png" alt="" class="blue-small-circles">
+      <div class="topimages">
+        <img src="images/blue_big_circle.png" alt="" class="blue-big-circles" />
+        <img
+          src="images/blue_small_circle.png"
+          alt=""
+          class="blue-small-circles"
+        />
+      </div>
+      <div class="firstview-container">
+        <img src="images/4_firstview.png" alt="" />
+        <div class="firstview-text">
+          <h1>学部紹介</h1>
+          <p>
+            神戸大学六甲台キャンパスにはどんな学部があるのか<br />
+            その学部では何を学ぶ事ができるかについて<br />
+            紹介します。
+          </p>
         </div>
-        <div class="firstview-container">
-            <img src="images/4_firstview.png" alt="">
-            <div class = "firstview-text">
-                <h1>学部紹介</h1>
-                    <p>神戸大学六甲台キャンパスにはどんな学部があるのか<br>
-                        その学部では何を学ぶ事ができるかについて<br>
-                        紹介します。
-                    </p>
-            </div>
-        </div>
-        <div class="wave">
-            <canvas id="waveCanvas"></canvas>
-        </div>
+      </div>
+      <div class="wave">
+        <canvas id="waveCanvas"></canvas>
+      </div>
     </section>
-    <section id = "function">
-        <div class="function-contents">
-            <div class="function-content">
-                <img src="images/4_tech.png" alt="">
-                <div class="function-content-textbox">
-                    <h3>工学部</h3>
-                    <p>最新のテクノロジーまでを日本トップクラスの環境下で知ることができます。基礎理論から応用分野まで幅広く学ぶことができます。
-                    </p>
-                    <div class="function-content-a">
-                        <a href="">もっと見る</a>
-                        <img src="images/4_arrow.png" alt="">
-                    </div>
-                </div>
+    <section id="function">
+      <div class="function-contents">
+        <div class="function-content">
+          <img src="images/4_tech.png" alt="" />
+          <div class="function-content-textbox">
+            <h3>工学部</h3>
+            <p>
+              最新のテクノロジーまでを日本トップクラスの環境下で知ることができます。基礎理論から応用分野まで幅広く学ぶことができます。
+            </p>
+            <div class="function-content-a">
+              <a href="">もっと見る</a>
+              <img src="images/4_arrow.png" alt="" />
             </div>
-            <div class="reverse-function-content">
-                <div class="function-content-textbox">
-                    <h3>理学部</h3>
-                    <p>
-                        全ての学問の土台にある学問について学ぶことができます。豊富な実験設備と雄大な自然を生かして多くの実験を行います。
-                    </p>
-                    <div class="function-content-a">
-                        <a href="">もっと見る</a>
-                        <img src="images/4_arrow.png" alt="">
-                    </div>
-                </div>
-                <img src="images/4_scie.png" alt="">
-            </div>
-            <div class="function-content">
-                <img src="images/4_agr.png" alt="">
-                <div class="function-content-textbox">
-                    <h3>農学部</h3>
-                    <p>農業と環境に関する卓越した教育と先駆的な研究を提供する学部です。地域社会とともに成長し、環境保護に貢献しています。
-                    </p>
-                    <div class="function-content-a">
-                        <a href="">もっと見る</a>
-                        <img src="images/4_arrow.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="reverse-function-content">
-                <div class="function-content-textbox">
-                    <h3>国際人間科学部</h3>
-                    <p>
-                        異文化の理解と共感を重視し、心理学、文化人類学、国際関係など幅広く学ぶことができます。
-                    </p>
-                    <div class="function-content-a">
-                        <a href="">もっと見る</a>
-                        <img src="images/4_arrow.png" alt="">
-                    </div>
-                </div>
-                <img src="images/4_gro.png" alt="">
-            </div>
-            <div class="function-content">
-                <img src="images/4_read.png" alt="">
-                <div class="function-content-textbox">
-                    <h3>文学部</h3>
-                    <p>
-                        文学および言語について深く学ぶことができます。文学の豊かな世界から想像力と表現力を発展させることができます。
-                    </p>
-                    <div class="function-content-a">
-                        <a href="">もっと見る</a>
-                        <img src="images/4_arrow.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="reverse-function-content">
-                <div class="function-content-textbox">
-                    <h3>経済、経営、法学部</h3>
-                    <p>
-                        ビジネスや法律界について幅広いスキルと知識を提供します。実務経験と研究に基づき社会に貢献する専門家を輩出します。
-                    </p>
-                    <div class="function-content-a">
-                        <a href="">もっと見る</a>
-                        <img src="images/4_arrow.png" alt="">
-                    </div>
-                </div>
-                <img src="images/4_b.png" alt="">
-            </div>
+          </div>
         </div>
-
+        <div class="reverse-function-content">
+          <div class="function-content-textbox">
+            <h3>理学部</h3>
+            <p>
+              全ての学問の土台にある学問について学ぶことができます。豊富な実験設備と雄大な自然を生かして多くの実験を行います。
+            </p>
+            <div class="function-content-a">
+              <a href="">もっと見る</a>
+              <img src="images/4_arrow.png" alt="" />
+            </div>
+          </div>
+          <img src="images/4_scie.png" alt="" />
+        </div>
+        <div class="function-content">
+          <img src="images/4_agr.png" alt="" />
+          <div class="function-content-textbox">
+            <h3>農学部</h3>
+            <p>
+              農業と環境に関する卓越した教育と先駆的な研究を提供する学部です。地域社会とともに成長し、環境保護に貢献しています。
+            </p>
+            <div class="function-content-a">
+              <a href="">もっと見る</a>
+              <img src="images/4_arrow.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="reverse-function-content">
+          <div class="function-content-textbox">
+            <h3>国際人間科学部</h3>
+            <p>
+              異文化の理解と共感を重視し、心理学、文化人類学、国際関係など幅広く学ぶことができます。
+            </p>
+            <div class="function-content-a">
+              <a href="">もっと見る</a>
+              <img src="images/4_arrow.png" alt="" />
+            </div>
+          </div>
+          <img src="images/4_gro.png" alt="" />
+        </div>
+        <div class="function-content">
+          <img src="images/4_read.png" alt="" />
+          <div class="function-content-textbox">
+            <h3>文学部</h3>
+            <p>
+              文学および言語について深く学ぶことができます。文学の豊かな世界から想像力と表現力を発展させることができます。
+            </p>
+            <div class="function-content-a">
+              <a href="">もっと見る</a>
+              <img src="images/4_arrow.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="reverse-function-content">
+          <div class="function-content-textbox">
+            <h3>経済、経営、法学部</h3>
+            <p>
+              ビジネスや法律界について幅広いスキルと知識を提供します。実務経験と研究に基づき社会に貢献する専門家を輩出します。
+            </p>
+            <div class="function-content-a">
+              <a href="">もっと見る</a>
+              <img src="images/4_arrow.png" alt="" />
+            </div>
+          </div>
+          <img src="images/4_b.png" alt="" />
+        </div>
+      </div>
     </section>
     <footer>
-        <p>&copy; Muroyama Atsuhiro</p>
+      <p>&copy; Muroyama Atsuhiro</p>
     </footer>
     <script src="js/singlewave.js"></script>
-</body>
+  </body>
 </html>
